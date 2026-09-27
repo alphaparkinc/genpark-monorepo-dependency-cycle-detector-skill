@@ -1,0 +1,29 @@
+{
+  "name": "genpark-monorepo-dependency-cycle-detector-skill",
+  "version": "1.0.0",
+  "description": "Monorepo dependency cycle resolver and topological build-order planner using Tarjan SCC and Kahn algorithms.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "monorepo",
+    "dependency-graph",
+    "cycle-detection",
+    "topological-sort",
+    "zero-dependency",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "detect_circular_dependencies",
+      "description": "Detect all circular reference loops between monorepo packages."
+    },
+    {
+      "name": "compute_topological_build_order",
+      "description": "Determine parallel-safe build execution order."
+    },
+    {
+      "name": "run_benchmark_monorepo_cycles",
+      "description": "Benchmark cycle detection on complex multi-package monorepo."
+    }
+  ]
+}
